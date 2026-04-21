@@ -1,43 +1,50 @@
-# Employee Trends Data Analysis - Tableau Dashboard
+# Employee Trends Data Analysis - Tableau Project 
 
-Built to answer a core HR question: *what does our workforce actually look like?* This dashboard covers 1,470 employees across department composition, travel behavior, education background, gender distribution, and job satisfaction — designed for stakeholder reporting and internal decision-making.
+This project looks at HR data for 1,470 employees to understand workforce composition, travel patterns, education background, and job satisfaction. The goal was to find patterns that could actually help with retention and HR planning — not just build charts for the sake of it.
 
-<img width="1887" height="862" alt="image" src="https://github.com/user-attachments/assets/429f2b55-62a2-4f31-825c-4b4958a3a6c5" />
-
----
-
-## Tools Used
-`Tableau` `Data Modeling` `Calculated Fields` `CSV`
+<img width="1887" height="862" alt="image" src="https://github.com/user-attachments/assets/f51b4dc5-de79-4865-b82d-fa5a6c5beb5d" />
 
 ---
 
 ## Dataset
-- **1,470 employees** total · 1,233 active
-- Departments: R&D, Sales, HR
-- Fields: travel frequency, education field, degree type, gender, marital status, job satisfaction score
+
+1,470 employee records with fields covering department, gender, age, marital status, education, job role, business travel, job satisfaction score, and attrition status.
 
 ---
 
-## Dashboard Breakdown
+## What I Found
 
-| Visual | Insight |
-|--------|---------|
-| Travel Frequency (bar) | 71% travel rarely · 19% frequently · 10% non-travel |
-| Department Headcount (bar) | R&D ~950 · Sales ~400 · HR ~60 |
-| Gender Split (pie) | 882 male (60%) · 588 female (40%) |
-| Degree Type (treemap) | Bachelor's most common, followed by Master's and Associates |
-| Education Field & Avg Job Satisfaction (dual-axis) | Life Sciences highest satisfaction (2.80) · HR lowest (2.56) |
+**Attrition is 16.1%** — 237 out of 1,470 employees have left. Sales has the highest attrition rate at 20.6%, followed by HR at 19%, while R&D sits lower at 13.8%.
 
-**Interactive Filters:** Marital Status · Gender
+**R&D carries most of the headcount** — 961 out of 1,470 employees (65%) work in R&D, with Sales at 446 and HR at just 63.
 
----
+**Most employees travel rarely** — 1,043 travel rarely, 277 travel frequently, and 150 don't travel at all. Worth noting for workload and wellbeing conversations.
 
-## Key Insights
-- 🏢 R&D accounts for 65%+ of headcount — a product and engineering-heavy organisation
-- 😊 Life Sciences employees report the highest job satisfaction; HR scores lowest — a retention signal
-- 🎓 Life Sciences is the most common education background (~600 employees)
-- ⚖️ 60/40 gender split — a baseline metric for diversity reporting to stakeholders
+**Life Sciences employees report the highest job satisfaction (2.80/4)**, while HR scores the lowest at 2.56. Given HR also has a 19% attrition rate, that's a consistent signal worth acting on.
+
+**Workforce is 60% male (882) and 40% female (588)**. The 25–34 age band is the largest group (554 employees), followed by 35–44 (505).
+
+**Bachelor's degree is the most common qualification** (572 employees), followed by Master's (398) and Associates (282). Life Sciences is the dominant education field with 606 employees.
 
 ---
 
-**Skills:** Tableau · Dashboard Development · Data Modeling · Dual-Axis Charts · KPI Reporting · HR Analytics · Stakeholder Reporting
+## Dashboard Visuals
+
+- Travel frequency — bar chart (Non-Travel / Rarely / Frequently)
+- Department headcount — horizontal bar (R&D, Sales, HR)
+- Gender split — pie chart
+- Type of degree — treemap
+- Education field vs avg job satisfaction — dual-axis combo chart
+- Employee count — summary KPI cards (Total: 1,470 · Active: 1,233)
+
+Filters: Marital Status · Gender
+
+---
+
+## Tools
+
+Tableau · CSV · Calculated fields for avg satisfaction by education field · Dual-axis data modeling
+
+---
+
+*Skills: Tableau · Data Modeling · Dashboard Development · HR Analytics · KPI Reporting · Stakeholder Reporting*
