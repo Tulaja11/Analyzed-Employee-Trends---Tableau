@@ -30,12 +30,14 @@ This project looks at HR data for 1,470 employees to understand workforce compos
 
 ## Dashboard Visuals
 
-- Travel frequency — bar chart (Non-Travel / Rarely / Frequently)
-- Department headcount — horizontal bar (R&D, Sales, HR)
-- Gender split — pie chart
-- Type of degree — treemap
-- Education field vs avg job satisfaction — dual-axis combo chart
-- Employee count — summary KPI cards (Total: 1,470 · Active: 1,233)
+| Chart | Type | What it shows |
+|-------|------|---------------|
+| Travel Frequency | Bar chart | Non-Travel (150) · Rarely (1,043) · Frequently (277) |
+| Department Headcount | Horizontal bar | R&D (961) · Sales (446) · HR (63) |
+| Gender Split | Pie chart | Male 882 (60%) · Female 588 (40%) |
+| Type of Degree | Treemap | Bachelor's (572) · Master's (398) · Associates (282) · High School (170) · Doctoral (48) |
+| Education Field & Avg Job Satisfaction | Dual-axis combo | Employee count per field + satisfaction score overlay (range 2.56–2.80) |
+| Employee Count | KPI cards | Total: 1,470 · Active: 1,233 · Attrition: 237 |
 
 Filters: Marital Status · Gender
 
