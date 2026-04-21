@@ -1,4 +1,4 @@
-# Employee Trends Data Analysis - Tableau Project 
+# Employee Trends Data Analysis - Tableau Dashboard
 
 This project looks at HR data for 1,470 employees to understand workforce composition, travel patterns, education background, and job satisfaction. The goal was to find patterns that could actually help with retention and HR planning — not just build charts for the sake of it.
 
